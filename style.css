@@ -5,5 +5,15 @@
     --cor-de-fundo: #00030c;
 }
  body {
-    border-color: var(--cor-de-fundo);
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+ }
+
+ .principal {
+    background-image: url("img/Combo.png");
  }
