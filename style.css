@@ -7,6 +7,10 @@
  body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
  }
 
  * {
@@ -15,5 +19,18 @@
  }
 
  .principal {
-    background-image: url("img/Combo.png");
+
+
+
  }
+
+ .container{
+   height: 100vh;
+ }
+  .container__botão{
+   background-color: var(--botão-azul);
+   border-radius: 5px;
+   padding: 1em;
+   color: var(--branco-principal);
+   display: block;
+  }
